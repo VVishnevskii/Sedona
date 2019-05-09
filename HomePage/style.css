@@ -1,0 +1,521 @@
+
+
+body {
+  min-width: 1200px;
+  font-size: 14px;
+  font-family: "PT Sans", "Arial", sans-serif;
+  text-transform: uppercase;
+  line-height: 21px;
+  padding: 0;
+  margin: 0;
+  background-color: #f2f2f2;
+}
+
+.center-container {
+  position: relative;
+  width: 1200px;
+  margin: 0 auto;
+  box-shadow: 0 0 50px #34495e;
+}
+
+.main-navigation {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  background-color: #fff;
+  justify-content: space-between;
+}
+
+.list-navigation {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.list-navigation li {
+  display: flex;
+  width: 240px;
+  height: 56px;
+  justify-content: center;
+  align-items: center;
+}
+
+.list-navigation li a {
+  font-family: "PT Sans";
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+
+.list-navigation li a:hover {
+  color: #81b3d2;
+}
+
+.list-navigation li a:active {
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.main-logo {
+  position: absolute;
+  top: 0px;
+  left: 530px;
+  z-index: 1;
+}
+
+.background-img {
+  height: 510px;
+  position: relative;
+  background-image: url(img/background%20photo.jpg);
+  background-repeat: no-repeat;
+}
+
+header {
+  font-size: 0px;
+}
+
+.visually-hidden {
+	position: absolute !important;
+	clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+	clip: rect(1px, 1px, 1px, 1px);
+	clip: rect(1px, 1px, 1px, 1px);
+	padding:0 !important;
+	border:0 !important;
+	height: 1px !important; 
+	width: 1px !important; 
+	overflow: hidden;
+
+}
+
+.main-nav-container {
+  position: relative;
+}
+
+.background-angle {
+  width: 100%;
+  height: 57px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background-image: url(img/background%20angle.png);
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #fff;
+}
+
+.description > p {
+  width: 490px;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 48px;
+  line-height: 26px;
+  color: #333;
+}
+
+.description-headline {
+  margin-top: 62px;
+  margin-bottom: 32px;
+  padding: 0;
+  font-size: 21px;
+  line-height: 26px;
+  color: #000;
+  font-weight: 700;
+  text-align: center;
+}
+
+.welcome {
+  width: 188px;
+  height: 45px;
+  position: absolute;
+  top: 77px;
+  left: 506px;
+  background-image: url(img/Welcome.png);
+}
+
+.to-the-gorgeous {
+  width: 256px;
+  height: 30px;
+  position: absolute;
+  top: 133px;
+  left: 473px;
+  background-image: url(img/to%20the%20gorgeous.png);
+  overflow: 100%x;
+}
+
+.sedona {
+  width: 458px;
+  height: 214px;
+  position: absolute;
+  top: 215px;
+  left: 370px;
+  background-image: url(img/Sedona.png);
+}
+
+.advantages {
+  display: flex;
+  background-color: #81b3d2;
+  margin: 0;
+  padding: 0;
+}
+
+.photo-city {
+  width: 800px;
+  height: 256px;
+  background-image: url(img/photo%20city.jpg);
+}
+
+.reason-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 400px;
+  height: 256px;
+  color: #fff;
+}
+
+.reason-1 h3 {
+  font-size: 21px;
+  line-height: 21px;
+  margin-top: 46px;
+  margin-bottom: 24px;
+  padding: 0;
+}
+
+.reason-1 > span {
+  margin: 0;
+  padding: 0;
+}
+
+.reason-2 > span {
+  margin: 0;
+  padding: 0;
+}
+
+.reason-1 p {
+  padding: 0;
+  margin-top: 26px;
+}
+
+.recommendations {
+  width: 1200px;
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+}
+
+.recommendations-list {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.recommendations-list li {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  align-items: center;
+  width: 400px;
+  height: 330px;
+  text-align: center;
+  background-color: #ffffff;
+}
+
+.recommendations-list li:nth-child(1) {
+  background-image: url(img/housing-icon-1.png);
+  background-repeat: no-repeat;
+  background-position: 162px 60px;
+}
+
+.recommendations-list li:nth-child(2) {
+  background-image: url(img/burger-icon-2.png);
+  background-repeat: no-repeat;
+  background-position: 162px 60px;
+}
+
+.recommendations-list li:nth-child(3) {
+  background-image: url(img/souvenirs-icon-3.png);
+  background-repeat: no-repeat;
+  background-position: 162px 60px;
+}
+
+.recommendations-list h3 {
+   margin-top: 160px;
+  margin-bottom: 25px;
+  padding: 0;
+}
+
+.recommendations-list p {
+   margin: 0;
+  padding: 0;
+}
+
+.photo-bridge {
+  width: 800px;
+  height: 256px;
+  background-image: url(img/photo%20bridge.jpg);
+}
+
+.reason-2 {
+  display: flex;
+  width: 400px;
+  margin: 0;
+  padding: 0;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  color: #ffffff;
+}
+
+.reason-2 h3 {
+  font-size: 21px;
+  line-height: 21px;
+  margin-top: 46px;
+  margin-bottom: 24px;
+  padding: 0;
+}
+
+.reason-2 p {
+  padding: 0;
+  margin-top: 26px;
+}
+
+.reasons-list {
+  display: flex;
+  justify-content: center;
+  
+  list-style: none;
+  width: 1200px;
+  height: 256px;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background-color: #eeeeee;
+}
+
+.reasons-list li {
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+  line-height: 21px;
+  color: #333333;
+  width: 400px;
+  height: 
+  margin: 0;
+  padding: 0;
+}
+
+.reasons-list li h3 {
+  font-size: 21px;
+  line-height: 21px;
+  margin-top: 46px;
+  margin-bottom: 24px;
+  padding: 0;
+  color: #000000;
+}
+
+.reasons-list li p {
+  margin-top: 26px;
+  padding: 0;
+}
+
+.form-head {
+  display: flex;
+  position: relative;
+  margin: 0;
+  padding: 0;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  height: 290px;
+  background-color: #ffffff;
+}
+
+.form-head h3 {
+  font-size: 30px;
+  line-height: 36px;
+  margin-top: 54px;
+  margin-bottom: 28px;
+  padding: 0;
+}
+
+.form-head p {
+  font-size: 14px;
+  line-height: 24px;
+  margin: 0;
+  padding: 0;
+}
+
+.hotel-search {
+  position: absolute;
+  font-family: "PT Sana", "Arial". sans-serif;
+  font-size: 21px;
+  line-height: 26px;
+  color: #ffffff;
+  font-weight: 700;
+  text-transform: uppercase;
+  list-style: none;
+  bottom: 0;
+  left: 317px;
+  border: none;
+  border-style: none;
+  width: 568px;
+  height: 86px;
+  background-color: #766357;
+  margin: 0 auto;
+}
+
+.hotel-search:hover {
+  background-color: #604e43;
+}
+
+.hotel-search:active {
+  background-color: #503e33;
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.form-container{
+  height: 593px;
+  background-image: url(img/map.jpg);
+}
+
+.footer-container {
+  display: flex;
+  height: 120px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(255, 255, 255, 0.9)
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.footer-content li {
+  display: flex;
+  width: 400px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.hashtag {
+  font-size: 21px;
+  line-height: 26px;
+  font-weight: 700;
+}
+
+.copyright {
+  position: relative;
+  font-size: 14px;
+  line-height: 26px;
+  margin: 0;
+  padding: 0;
+}
+
+.copyright span {
+  margin-right: 115px;
+  padding: 0;
+}
+
+.copyright a {
+  position: absolute;
+  top: 39px;
+  right: 101px;
+  width: 115px;
+  height: 41px;
+  margin: 0;
+  padding: 0;
+  background-image: url(img/logo_name.png);
+  z-index: 2;
+}
+
+.copyright a:hover {
+  position: absolute;
+  top: 39px;
+  right: 101px;
+  width: 115px;
+  height: 41px;
+  margin: 0;
+  padding: 0;
+  background-image: url(img/logo_name_hover.png);
+  z-index: 2;
+}
+
+.copyright a:active {
+  position: absolute;
+  top: 39px;
+  right: 101px;
+  width: 115px;
+  height: 41px;
+  margin: 0;
+  padding: 0;
+  background-image: url(img/logo_name_active.png);
+  z-index: 2;
+}
+.contacts-list {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  text-decoration: none;
+  padding: 0;
+  margin: 0;
+}
+
+.contacts-list li {
+  width: 46px;
+  height: 48px;
+  margin-right: 6px;
+}
+
+
+
+.contacts-list li a {
+  width: 46px;
+  height: 48px;
+  background-image: url(img/contacts.png);
+  background-repeat: no-repeat;
+  background-color: #81b3d2;
+}
+
+.contacts-list li a:hover {
+  background-color: #669ec0;
+}
+
+.contacts-list li a:active {
+  background-color: #5496bd;
+  background-image: url(img/contacts-active.png);
+}
+
+.contacts-list li:last-child {
+  margin: 0;
+}
+
+.contact-tw {
+  background-position: 15px 12px;
+}
+
+.contact-fb {
+  background-position: 50% 12px;
+}
+
+.contact-yt {
+  background-position: -88px 12px;
+}
